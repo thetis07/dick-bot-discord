@@ -52,7 +52,7 @@ async def ping(ctx):
 
 
 @bot.command()
-async def sik(ctx, option: str = None):
+async def dick(ctx, option: str = None):
     user_id = str(ctx.author.id)
 
     # Dosyadan veriyi oku, yoksa boş dict yap
@@ -111,7 +111,7 @@ async def sik(ctx, option: str = None):
         return
 
     # cooldown yok, diğer seçenekler:
-    if option == "kaccm":
+    if option == "howmanycm":
         boy = data.get(user_id, 0)
         await ctx.send(f"{ctx.author.mention}, your dick is {boy} cm!")
         return
