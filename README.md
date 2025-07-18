@@ -11,3 +11,6 @@
 
 # how to run
 - basicly u must install the discord.py and insert your bot token to the bottom block of main.py.
+
+# showcase
+[Screencast_20250718_104354.webm](https://github.com/user-attachments/assets/f0fcc352-7164-4a95-baed-2579339a166f)
